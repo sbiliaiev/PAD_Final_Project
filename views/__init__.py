@@ -1,0 +1,1 @@
+from .statistics import render_general_statistic, render_salary_statistic

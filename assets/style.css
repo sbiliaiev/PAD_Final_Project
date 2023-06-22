@@ -1,0 +1,22 @@
+.statistic_item {
+  /* display: flex; */
+
+}
+
+.statistic_item > div:first-child {
+  font-weight: bold;
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
+  min-height: 610px;
+  padding: 0;
+}
+
+.card .btn-group-toggle {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
