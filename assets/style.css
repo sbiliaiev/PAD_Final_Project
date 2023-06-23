@@ -20,3 +20,6 @@
   justify-content: space-around;
 }
 
+#language-dropdown {
+  min-width: 280px;;
+}
