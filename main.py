@@ -2,7 +2,7 @@ import pandas as pd
 import dash
 import dash_html_components as html
 from dash.dependencies import Input, Output
-from views import render_general_statistic, render_salary_statistic, render_language_view
+from views import render_general_statistic, render_salary_statistic, render_language_view, render_profit
 
 print("hello world")
 
@@ -44,6 +44,10 @@ app.layout = html.Div([
     html.Hr(),
 
     render_language_view(app, data),
+
+    html.Hr(),
+
+    render_profit(data),
 
     html.Hr(),
 
